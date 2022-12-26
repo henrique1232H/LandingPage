@@ -1,0 +1,16 @@
+Para criar variaveis no css você utiliza o 
+
+:root {
+    --primary-color: #FFF  
+
+}
+
+dentro do root para criar uma variavel você coloca dois traços
+
+--NomeDaVariavel
+
+é usado bastante para cor
+
+para utilizar essa variavel você coloca o var()
+
+color: var(--primary-color);
